@@ -49,10 +49,10 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2
 ```
 ![paste_here](./images/paste_here.PNG)
 
-## 4 Restart the PC
+## 4. Restart the PC
 Restart the PC to set the path.
 
-## 5 Create the environment on anaconda
+## 5. Create the environment on anaconda
 1. Start the anaconda.
 2. Go to the "Environments" tab.
 3. Click the "Create" button.
@@ -63,7 +63,7 @@ Restart the PC to set the path.
 
 ![anaconda_environment](./images/anaconda_navigator_environment.PNG)
 
-## 6 Install tensor-flow-gpu
+## 6. Install tensor-flow-gpu
 1. Go to the "home" tab.
 2. Select the cahnnel you created at 5 on "Aplications on".
 3. Click the "Install" button on the CMD.exe Prompt to install Prompt.
@@ -92,7 +92,7 @@ Restart the PC to set the path.
     }
     ```
 
-## 7 Check operation with Grad-CAM
+## 7. Check operation with Grad-CAM
 1. Install the modules.
 
     You can check installed module with following command.
@@ -122,7 +122,7 @@ Restart the PC to set the path.
     - Grad-CAM code is on this URL.\
     https://github.com/14haru/zhang_lab/Codes/Grad-CAM/Grad-CAM.py
 
-## 8 Solve the error issue
+## 8. Solve the error issue
 
 **You may can run Grad-CAM code without this step.**
 ### Module version error.
