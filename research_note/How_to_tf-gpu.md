@@ -14,7 +14,7 @@ https://www.tensorflow.org/install/source_windows#gpu
 
 ## 2. Install CUDA
 ### 2.1 How to install CUDA
-You can install CUDA at this URL.\
+You can install CUDA from this URL.\
 https://developer.nvidia.com/cuda-toolkit-archive
 
 If the installation is successful, You can see the path at `Edit the system environment variable` like this image.\
@@ -37,7 +37,7 @@ If you install two different versions of CUDA, CUDAs are installed as shown in t
 ## **Note the supported CUDA version**
 The same version of cuDNN may support different versions of CUDA.
 
-You can install cuDNN at this URL.(You need to log in to your NVIDIA account.)\
+You can install cuDNN from this URL.(You need to log in to your NVIDIA account.)\
 https://developer.nvidia.com/rdp/cudnn-archive
 
 1. Unzip the file
