@@ -66,7 +66,7 @@ Restart the PC to set the path.
 
 
 ## 6. Install tensor-flow-gpu
-1. Go to the `home` tab.
+1. Go to the `Home` tab.
 ![anaconda_home](./images/anaconda_navigator_home.PNG)
 2. Select the cahnnel you created at `5. Create the environment on anaconda` on `Aplications on`.
 3. Click the `Install` button on the CMD.exe Prompt to install Prompt.
@@ -125,6 +125,10 @@ Restart the PC to set the path.
 2. Run Grad-CAM code.
     - Grad-CAM code is on this URL.\
     https://github.com/14haru/zhang_lab/tree/main/Codes/Grad-CAM
+
+    ![Grad-CAM](../Codes/Grad-CAM/images/cat_dog.png)
+    ![Grad-CAM](../Codes/Grad-CAM/images/gradcam.png)
+
 
 ## 8. Solve the error issue
 
