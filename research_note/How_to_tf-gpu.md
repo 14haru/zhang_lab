@@ -1,4 +1,4 @@
-# How to Install Multiple versions of tensor-flow-GPU, CUDA and cuDNN on the Windows
+# How to Install Multiple versions of TensorFlow-GPU, CUDA and cuDNN on the Windows with Anaconda
 
 ## You need to install the following containts before 1st step
 - anaconda
@@ -49,7 +49,7 @@ If you install two different versions of CUDA, CUDAs are installed as shown in t
 ![CUDA_file](./images/CUDA_file.PNG)
 
 ## 3. Install cuDNN
-## **Note the supported CUDA version**
+**Note the supported CUDA version**
 The same version of cuDNN may support different versions of CUDA.
 
 You can install cuDNN from this URL.(You need to log in to your NVIDIA account.)\
@@ -118,7 +118,7 @@ Restart the PC to set the path.
     ```
     pip list
     ```
-    ## **Note the supported module version**
+    **Note the supported module version**
 
     - matplotlib
     ```
