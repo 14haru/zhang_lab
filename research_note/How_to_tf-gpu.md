@@ -11,6 +11,21 @@
 Check the versions that you want to install at this URL.\
 https://www.tensorflow.org/install/source_windows#gpu
 
+### Notes
+If the two versions you want to use have the same CUDA version and the same major version of cuDNN, you cannot use both in one environment.
+
+Example of when it CAN be used
+```
+CUDA 10.2, cuDNN 8.3.3
+CUDA 10.2, cuDNN 7.6.5
+```
+
+Example of when it CANNOT be used
+```
+CUDA 10.2, cuDNN 8.3.3
+CUDA 10.2, cuDNN 8.2.4
+```
+
 
 ## 2. Install CUDA
 ### 2.1 How to install CUDA
@@ -18,7 +33,7 @@ You can install CUDA from this URL.\
 https://developer.nvidia.com/cuda-toolkit-archive
 
 If the installation is successful, You can see the path at `Edit the system environment variable` like this image.\
-(If your Windows language is Japanese, It is called `システム環境変数の編集`.)
+(If your Windows language is Japanese, it is called `システム環境変数の編集`.)
 
 ```
 CUDA_PATH_V10_0 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
@@ -148,6 +163,8 @@ Restart the PC to set the path.
 
 ## References
 https://qiita.com/momendoufu/items/6a0bc0701d797ef5b727
+
+https://qiita.com/takeajioka/items/8737fab5cffbe0118fea
 
 https://hahaeatora.hateblo.jp/entry/2020/06/30/200000
 
