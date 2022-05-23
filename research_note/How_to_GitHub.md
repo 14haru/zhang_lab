@@ -1,7 +1,7 @@
 # Git，GitHubの学習
 ## VScodeによるGit環境のセットアップ
 
-参考
+参考\
 https://breezegroup.co.jp/202102/vscode-github-windows/
 
 ### commitできないとき
@@ -41,6 +41,12 @@ git merge --allow-unrelated-histories origin/master
 git merge --allow-unrelated-histories origin/main
 ```
 
-参考
+参考\
 https://qiita.com/w-tdon/items/24348728c9256e5bf945
+
+
+## GitのVScode上の操作方法
+
+参考\
+https://qiita.com/y-tsutsu/items/2ba96b16b220fb5913be
 
