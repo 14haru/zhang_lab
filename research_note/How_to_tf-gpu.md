@@ -1,4 +1,4 @@
-# How to Install Multiple versions of TensorFlow-GPU, CUDA and cuDNN on the Windows with Anaconda
+# How to Use Multiple versions of TensorFlow-GPU, CUDA and cuDNN on the Windows with Anaconda
 
 ## You need to install the following containts before 1st step
 - anaconda
@@ -29,7 +29,7 @@ CUDA 10.2, cuDNN 8.2.4
 
 ## 2. Install CUDA
 ### 2.1 How to install CUDA
-You can install CUDA from this URL.\
+You can download CUDA installer from this URL.\
 https://developer.nvidia.com/cuda-toolkit-archive
 
 If the installation is successful, You can see the path at `Edit the system environment variable` like this image.\
@@ -52,7 +52,7 @@ If you install two different versions of CUDA, CUDAs are installed as shown in t
 **Note the supported CUDA version**
 The same version of cuDNN may support different versions of CUDA.
 
-You can install cuDNN from this URL.(You need to log in to your NVIDIA account.)\
+You can download cuDNN ZIP FILE from this URL.(You need to log in to your NVIDIA account.)\
 https://developer.nvidia.com/rdp/cudnn-archive
 
 1. Unzip the file
